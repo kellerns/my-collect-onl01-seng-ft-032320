@@ -9,9 +9,9 @@ def my_collect(list)
     collection << yield list[i]
     i += 1
     end
-    collection
+
   else
   end
-  
+  collection
 end
 
