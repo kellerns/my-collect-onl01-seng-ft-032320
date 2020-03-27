@@ -6,7 +6,8 @@ def my_collect(list)
     collection = []
     
     while i < list.length
-    collection << yield list[i]
+    new_item = yield list[i]
+    collection << new_item
     i += 1
     end
 
